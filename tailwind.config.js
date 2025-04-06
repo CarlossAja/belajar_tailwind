@@ -4,10 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent': '#46A358'
+        'accent': '#46A358',
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
       }
     },
   },
   plugins: [],
 }
-
